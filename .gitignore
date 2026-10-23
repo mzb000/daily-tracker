@@ -12,3 +12,4 @@ __pycache__/
 dist/
 build/
 generate_all_notebooks.mjs
+build_weeks_5_and_6.mjs
