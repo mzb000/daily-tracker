@@ -1,0 +1,13 @@
+# Local runner scripts
+activity_runner.mjs
+run_daily.bat
+task_runner.bat
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
