@@ -72,6 +72,42 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 
 ---
 
+### 📍 Week 8: Natural Language Processing (NLP) & Text Embeddings
+- 📓 **[01_text_preprocessing_tokenization_lemmatization.ipynb](08-nlp-and-text-embeddings/01_text_preprocessing_tokenization_lemmatization.ipynb)**: Regex cleaning, tokenization, stop word filtering, and stemming vs lemmatization.
+- 📓 **[02_bag_of_words_and_tfidf_from_scratch.ipynb](08-nlp-and-text-embeddings/02_bag_of_words_and_tfidf_from_scratch.ipynb)**: Term frequency, inverse document frequency, and L2 normalization from scratch.
+- 📓 **[03_word_embeddings_word2vec_cosine_similarity.ipynb](08-nlp-and-text-embeddings/03_word_embeddings_word2vec_cosine_similarity.ipynb)**: Dense semantic vectors, Word2Vec skip-gram intuition, and vector arithmetic (King - Man + Woman = Queen).
+- 📓 **[04_sentiment_analysis_naive_bayes_nlp.ipynb](08-nlp-and-text-embeddings/04_sentiment_analysis_naive_bayes_nlp.ipynb)**: Bayes theorem, Laplace smoothing, and multinomial spam classification.
+- 📓 **[05_recurrent_neural_networks_rnn_and_lstm.ipynb](08-nlp-and-text-embeddings/05_recurrent_neural_networks_rnn_and_lstm.ipynb)**: Sequence memory, hidden state propagation, and LSTM gating mechanics.
+
+---
+
+### 📍 Week 9: Transformers, Attention & Large Language Models (LLMs)
+- 📓 **[01_self_attention_mechanism_from_scratch.ipynb](09-transformers-and-llms/01_self_attention_mechanism_from_scratch.ipynb)**: Queries ($Q$), Keys ($K$), Values ($V$), and Scaled Dot-Product Attention in NumPy.
+- 📓 **[02_multi_head_attention_and_positional_encoding.ipynb](09-transformers-and-llms/02_multi_head_attention_and_positional_encoding.ipynb)**: Multi-Head attention splitting and sinusoidal positional encodings.
+- 📓 **[03_transformer_encoder_decoder_architecture.ipynb](09-transformers-and-llms/03_transformer_encoder_decoder_architecture.ipynb)**: Encoder (BERT) vs Decoder (GPT), LayerNorm, and Residual skip connections.
+- 📓 **[04_tokenization_bpe_byte_pair_encoding.ipynb](09-transformers-and-llms/04_tokenization_bpe_byte_pair_encoding.ipynb)**: Subword tokenization and Byte-Pair Encoding (BPE) algorithm from scratch.
+- 📓 **[05_prompt_engineering_and_rag_foundations.ipynb](09-transformers-and-llms/05_prompt_engineering_and_rag_foundations.ipynb)**: Chain-of-Thought prompting, vector database retrieval, and RAG architecture.
+
+---
+
+### 📍 Week 10: Model Evaluation, Explainable AI (XAI) & MLOps
+- 📓 **[01_cross_validation_stratified_kfold_time_series.ipynb](10-mlops-and-explainable-ai/01_cross_validation_stratified_kfold_time_series.ipynb)**: Stratified K-Fold and TimeSeriesSplit to prevent lookahead leakage.
+- 📓 **[02_roc_curves_auc_and_precision_recall_curves.ipynb](10-mlops-and-explainable-ai/02_roc_curves_auc_and_precision_recall_curves.ipynb)**: ROC-AUC vs PR-AUC curves, threshold calibration, and business cost matrices.
+- 📓 **[03_shap_and_lime_explainable_ai.ipynb](10-mlops-and-explainable-ai/03_shap_and_lime_explainable_ai.ipynb)**: Shapley values from cooperative game theory and feature attributions.
+- 📓 **[04_data_drift_and_concept_drift_detection.ipynb](10-mlops-and-explainable-ai/04_data_drift_and_concept_drift_detection.ipynb)**: Covariate shift, Kolmogorov-Smirnov test, and Population Stability Index (PSI).
+- 📓 **[05_model_serialization_onnx_and_fastapi_serving.ipynb](10-mlops-and-explainable-ai/05_model_serialization_onnx_and_fastapi_serving.ipynb)**: ONNX runtime export and low-latency FastAPI REST microservice schemas.
+
+---
+
+### 📍 Week 11: Specialized Topics & Advanced Machine Learning
+- 📓 **[01_imbalanced_data_smote_and_class_weights.ipynb](11-advanced-specialized-ml/01_imbalanced_data_smote_and_class_weights.ipynb)**: SMOTE synthetic interpolation and cost-sensitive balanced class weighting.
+- 📓 **[02_feature_selection_rfe_lasso_boruta.ipynb](11-advanced-specialized-ml/02_feature_selection_rfe_lasso_boruta.ipynb)**: Recursive Feature Elimination (RFE) and Boruta random shadow feature testing.
+- 📓 **[03_anomaly_detection_isolation_forest.ipynb](11-advanced-specialized-ml/03_anomaly_detection_isolation_forest.ipynb)**: Isolation Forest average path length and unsupervised outlier scoring.
+- 📓 **[04_recommender_systems_collaborative_filtering.ipynb](11-advanced-specialized-ml/04_recommender_systems_collaborative_filtering.ipynb)**: User-Item interaction matrix, Collaborative Filtering, and Cosine similarity.
+- 📓 **[05_time_series_forecasting_arima_and_seasonality.ipynb](11-advanced-specialized-ml/05_time_series_forecasting_arima_and_seasonality.ipynb)**: Stationarity testing, differencing, and ARIMA $(p, d, q)$ parameters.
+
+---
+
 ## 🎯 Daily Cadence & Code Quality
 - **Pure Jupyter Notebook Format (`.ipynb`)**: Directly viewable in your browser on GitHub.
 - **Deep Explanations**: Theory, math derivations, line-by-line commentary, and interview Q&As.
