@@ -13,3 +13,5 @@ dist/
 build/
 generate_all_notebooks.mjs
 build_weeks_5_and_6.mjs
+build_week_7.mjs
+build_20_more_notebooks.mjs
