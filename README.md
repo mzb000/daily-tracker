@@ -60,6 +60,18 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 
 ---
 
+### 📍 Week 7: Deep Learning Foundations & Neural Networks
+- 📓 **[01_single_layer_perceptron_scratch.ipynb](07-deep-learning-foundations/01_single_layer_perceptron_scratch.ipynb)**: Artificial neuron, threshold activation, boolean logic gates, and the XOR problem.
+- 📓 **[02_activation_functions_relu_sigmoid_tanh_gelu.ipynb](07-deep-learning-foundations/02_activation_functions_relu_sigmoid_tanh_gelu.ipynb)**: Vanishing gradients, dying ReLU, and modern GELU activations.
+- 📓 **[03_feedforward_neural_network_numpy_scratch.ipynb](07-deep-learning-foundations/03_feedforward_neural_network_numpy_scratch.ipynb)**: Multi-Layer Perceptron (MLP) forward pass, matrix shapes, and cross-entropy in pure NumPy.
+- 📓 **[04_backpropagation_calculus_chain_rule.ipynb](07-deep-learning-foundations/04_backpropagation_calculus_chain_rule.ipynb)**: Calculus chain rule, partial derivatives, and complete XOR training loop.
+- 📓 **[05_pytorch_tensor_fundamentals_and_autograd.ipynb](07-deep-learning-foundations/05_pytorch_tensor_fundamentals_and_autograd.ipynb)**: PyTorch tensors, GPU acceleration, automatic differentiation, and `nn.Module`.
+- 📓 **[06_optimizers_sgd_momentum_rmsprop_adam.ipynb](07-deep-learning-foundations/06_optimizers_sgd_momentum_rmsprop_adam.ipynb)**: SGD with momentum, RMSProp adaptive rates, and Adam optimizer implementation.
+- 📓 **[07_regularization_dropout_batchnorm_weight_decay.ipynb](07-deep-learning-foundations/07_regularization_dropout_batchnorm_weight_decay.ipynb)**: Inverted dropout from scratch, batch normalization, and weight decay.
+- 📓 **[08_convolutional_neural_networks_cnn_basics.ipynb](07-deep-learning-foundations/08_convolutional_neural_networks_cnn_basics.ipynb)**: 2D convolution from scratch, Sobel edge filter kernels, stride, padding, and pooling.
+
+---
+
 ## 🎯 Daily Cadence & Code Quality
 - **Pure Jupyter Notebook Format (`.ipynb`)**: Directly viewable in your browser on GitHub.
 - **Deep Explanations**: Theory, math derivations, line-by-line commentary, and interview Q&As.
