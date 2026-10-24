@@ -108,6 +108,33 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 
 ---
 
+### 📍 Week 12: Generative AI, Multimodal Architectures & Diffusion
+- 📓 **[01_autoencoders_and_variational_autoencoders_vae.ipynb](12-generative-ai-and-diffusion/01_autoencoders_and_variational_autoencoders_vae.ipynb)**: Latent bottleneck compression, reparameterization trick, and KL-divergence loss from scratch.
+- 📓 **[02_generative_adversarial_networks_gan_from_scratch.ipynb](12-generative-ai-and-diffusion/02_generative_adversarial_networks_gan_from_scratch.ipynb)**: Min-max zero-sum game, Generator vs. Discriminator adversarial loss, and mode collapse.
+- 📓 **[03_diffusion_models_ddpm_and_denoising_math.ipynb](12-generative-ai-and-diffusion/03_diffusion_models_ddpm_and_denoising_math.ipynb)**: Forward Markov noise schedule, reverse score denoising, and U-Net epsilon prediction math.
+- 📓 **[04_vision_transformers_vit_patch_projection.ipynb](12-generative-ai-and-diffusion/04_vision_transformers_vit_patch_projection.ipynb)**: Image patch flattening, linear projection, [CLS] token classification, and self-attention in CV.
+- 📓 **[05_clip_and_multimodal_contrastive_learning.ipynb](12-generative-ai-and-diffusion/05_clip_and_multimodal_contrastive_learning.ipynb)**: OpenAI CLIP dual-encoders, cross-modal cosine similarity, and zero-shot image classification.
+
+---
+
+### 📍 Week 13: Reinforcement Learning (RL) & Human Alignment (RLHF)
+- 📓 **[01_reinforcement_learning_markov_decision_process_mdp.ipynb](13-reinforcement-learning-and-rlhf/01_reinforcement_learning_markov_decision_process_mdp.ipynb)**: Markov Decision Processes (MDP), Bellman optimality equations, and state-value iteration.
+- 📓 **[02_q_learning_and_temporal_difference_from_scratch.ipynb](13-reinforcement-learning-and-rlhf/02_q_learning_and_temporal_difference_from_scratch.ipynb)**: Model-free tabular Q-learning, Temporal Difference (TD) updates, and epsilon-greedy exploration.
+- 📓 **[03_deep_q_networks_dqn_experience_replay.ipynb](13-reinforcement-learning-and-rlhf/03_deep_q_networks_dqn_experience_replay.ipynb)**: Deep Q-Networks, experience replay memory buffers, and frozen target networks.
+- 📓 **[04_policy_gradients_reinforce_and_actor_critic.ipynb](13-reinforcement-learning-and-rlhf/04_policy_gradients_reinforce_and_actor_critic.ipynb)**: REINFORCE policy gradient theorem, log-derivative trick, and Advantage Actor-Critic (A2C).
+- 📓 **[05_rlhf_reinforcement_learning_human_feedback.ipynb](13-reinforcement-learning-and-rlhf/05_rlhf_reinforcement_learning_human_feedback.ipynb)**: 3-step RLHF pipeline: SFT, Bradley-Terry reward modeling, and PPO alignment with KL penalties.
+
+---
+
+### 📍 Week 14: LLM Fine-Tuning (PEFT), Quantization & AI Agents
+- 📓 **[01_lora_low_rank_adaptation_from_scratch.ipynb](14-llm-finetuning-and-peft/01_lora_low_rank_adaptation_from_scratch.ipynb)**: Low-Rank Adaptation (LoRA) weight decomposition $W + B \cdot A$, rank $r$ bottleneck, and parameter savings.
+- 📓 **[02_qlora_and_4bit_quantization_nf4.ipynb](14-llm-finetuning-and-peft/02_qlora_and_4bit_quantization_nf4.ipynb)**: 4-bit NormalFloat (NF4) quantization, double quantization, and paged optimizers for consumer GPUs.
+- 📓 **[03_direct_preference_optimization_dpo.ipynb](14-llm-finetuning-and-peft/03_direct_preference_optimization_dpo.ipynb)**: Direct Preference Optimization (DPO) mathematical derivation, closed-form objective, and bypassing separate reward models.
+- 📓 **[04_speculative_decoding_and_kv_cache.ipynb](14-llm-finetuning-and-peft/04_speculative_decoding_and_kv_cache.ipynb)**: KV-Cache memory mechanics, memory bandwidth bottlenecks, and Speculative Decoding draft verification.
+- 📓 **[05_ai_agents_function_calling_and_tool_use.ipynb](14-llm-finetuning-and-peft/05_ai_agents_function_calling_and_tool_use.ipynb)**: ReAct (Reason + Act) loop, JSON tool schemas, multi-step tool execution, and error handling.
+
+---
+
 ## 🎯 Daily Cadence & Code Quality
 - **Pure Jupyter Notebook Format (`.ipynb`)**: Directly viewable in your browser on GitHub.
 - **Deep Explanations**: Theory, math derivations, line-by-line commentary, and interview Q&As.
