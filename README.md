@@ -135,6 +135,43 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 
 ---
 
+### 📍 Week 15: Graph Neural Networks & Geometric Deep Learning
+- 📓 **[01_graph_fundamentals_adjacency_laplacian_scratch.ipynb](15-graph-neural-networks-and-geometric-dl/01_graph_fundamentals_adjacency_laplacian_scratch.ipynb)**: Adjacency matrix, degree matrix, unnormalized and symmetric normalized Laplacian from scratch.
+- 📓 **[02_graph_convolutional_networks_gcn_scratch.ipynb](15-graph-neural-networks-and-geometric-dl/02_graph_convolutional_networks_gcn_scratch.ipynb)**: Kipf & Welling first-order spectral propagation rule and semi-supervised node classification.
+- 📓 **[03_graph_attention_networks_gat.ipynb](15-graph-neural-networks-and-geometric-dl/03_graph_attention_networks_gat.ipynb)**: Graph Attention Networks, masked dynamic neighbor attention, and multi-head projection.
+- 📓 **[04_graphsage_neighborhood_sampling.ipynb](15-graph-neural-networks-and-geometric-dl/04_graphsage_neighborhood_sampling.ipynb)**: Inductive representation learning and fixed-size neighborhood mini-batch sampling.
+- 📓 **[05_link_prediction_and_molecular_graphs.ipynb](15-graph-neural-networks-and-geometric-dl/05_link_prediction_and_molecular_graphs.ipynb)**: TransE knowledge graph embeddings, negative edge sampling, and molecular property ranking.
+
+---
+
+### 📍 Week 16: Advanced MLOps, Distributed Training & Model Optimization
+- 📓 **[01_data_parallelism_ddp_and_gradient_allreduce.ipynb](16-distributed-training-and-model-optimization/01_data_parallelism_ddp_and_gradient_allreduce.ipynb)**: Distributed Data Parallel (DDP), Ring-AllReduce ring topology, and multi-GPU scaling mechanics.
+- 📓 **[02_tensor_parallelism_and_pipeline_parallelism.ipynb](16-distributed-training-and-model-optimization/02_tensor_parallelism_and_pipeline_parallelism.ipynb)**: Megatron-LM 1D tensor splitting (Column & Row parallel) and pipeline bubble scheduling.
+- 📓 **[03_zero_redundancy_optimizer_deepspeed.ipynb](16-distributed-training-and-model-optimization/03_zero_redundancy_optimizer_deepspeed.ipynb)**: ZeRO Stage 1, 2, 3 memory breakdown and FSDP sharding calculations.
+- 📓 **[04_model_pruning_and_knowledge_distillation.ipynb](16-distributed-training-and-model-optimization/04_model_pruning_and_knowledge_distillation.ipynb)**: Hinton knowledge distillation loss with temperature and weight magnitude pruning.
+- 📓 **[05_feature_stores_feast_and_realtime_inference.ipynb](16-distributed-training-and-model-optimization/05_feature_stores_feast_and_realtime_inference.ipynb)**: Point-in-time correctness as-of joins and dual-store architecture preventing data leakage.
+
+---
+
+### 📍 Week 17: Production Retrieval-Augmented Generation (Advanced RAG) & Vector Search
+- 📓 **[01_vector_indexing_hnsw_and_ivf_pq.ipynb](17-advanced-rag-and-vector-search/01_vector_indexing_hnsw_and_ivf_pq.ipynb)**: Approximate Nearest Neighbor search with HNSW and IVF-PQ quantization from scratch.
+- 📓 **[02_hybrid_search_bm25_dense_reciprocal_rank_fusion.ipynb](17-advanced-rag-and-vector-search/02_hybrid_search_bm25_dense_reciprocal_rank_fusion.ipynb)**: BM25 lexical keyword search, dense cosine embeddings, and Reciprocal Rank Fusion (RRF).
+- 📓 **[03_reranking_cross_encoders_and_colbert.ipynb](17-advanced-rag-and-vector-search/03_reranking_cross_encoders_and_colbert.ipynb)**: Bi-Encoder vs Cross-Encoder reranking and ColBERT late interaction MaxSim.
+- 📓 **[04_chunking_strategies_and_contextual_retrieval.ipynb](17-advanced-rag-and-vector-search/04_chunking_strategies_and_contextual_retrieval.ipynb)**: Semantic boundary splitting and hierarchical parent-child indexing.
+- 📓 **[05_rag_triad_evaluation_ragas_and_truelens.ipynb](17-advanced-rag-and-vector-search/05_rag_triad_evaluation_ragas_and_truelens.ipynb)**: Automated context relevance, faithfulness, and answer groundedness scoring.
+
+---
+
+### 📍 Week 18: Modern Autonomous AI Systems & Multi-Agent Architectures
+- 📓 **[01_planning_and_reasoning_tree_of_thoughts.ipynb](18-autonomous-ai-agents-and-multi-agent-systems/01_planning_and_reasoning_tree_of_thoughts.ipynb)**: Tree of Thoughts heuristic search, state-space exploration, and BFS state pruning.
+- 📓 **[02_multi_agent_collaboration_and_debate.ipynb](18-autonomous-ai-agents-and-multi-agent-systems/02_multi_agent_collaboration_and_debate.ipynb)**: Society of Mind multi-agent debate, critique-refinement loops, and consensus scoring.
+- 📓 **[03_memory_systems_episodic_semantic_working_memory.ipynb](18-autonomous-ai-agents-and-multi-agent-systems/03_memory_systems_episodic_semantic_working_memory.ipynb)**: Short-term working memory, episodic vector retrieval, and exponential recency decay.
+- 📓 **[04_code_generation_execution_and_sandboxing.ipynb](18-autonomous-ai-agents-and-multi-agent-systems/04_code_generation_execution_and_sandboxing.ipynb)**: AST validation, isolated sandboxed execution, and automated error reflection.
+- 📓 **[05_structured_outputs_json_grammar_constrained_sampling.ipynb](18-autonomous-ai-agents-and-multi-agent-systems/05_structured_outputs_json_grammar_constrained_sampling.ipynb)**: Grammar-constrained decoding, pushdown automata, and logit masking for 100% valid JSON.
+- 📓 **[06_ai_safety_guardrails_prompt_injection_defense.ipynb](18-autonomous-ai-agents-and-multi-agent-systems/06_ai_safety_guardrails_prompt_injection_defense.ipynb)**: Defenses against direct and indirect prompt injection, canary token verification, and input-output boundaries.
+
+---
+
 ## 🎯 Daily Cadence & Code Quality
 - **Pure Jupyter Notebook Format (`.ipynb`)**: Directly viewable in your browser on GitHub.
 - **Deep Explanations**: Theory, math derivations, line-by-line commentary, and interview Q&As.
