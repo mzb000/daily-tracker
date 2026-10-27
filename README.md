@@ -196,6 +196,56 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 
 ---
 
+### 📍 Week 19: Time-Series Deep Learning, State Space Models (SSMs) & Mamba
+- 📓 **[01_time_series_decomposition_fourier_wavelets.ipynb](19-time-series-ssm-and-mamba/01_time_series_decomposition_fourier_wavelets.ipynb)**: Fourier transform, spectral time-series decomposition, and frequency-domain noise filtering from scratch.
+- 📓 **[02_temporal_convolutional_networks_tcn.ipynb](19-time-series-ssm-and-mamba/02_temporal_convolutional_networks_tcn.ipynb)**: Temporal Convolutional Networks (TCN), causal dilated convolutions, and exponential receptive fields.
+- 📓 **[03_neural_prophet_and_nbeats_forecasting.ipynb](19-time-series-ssm-and-mamba/03_neural_prophet_and_nbeats_forecasting.ipynb)**: Neural Basis Expansion (N-BEATS), interpretable trend/seasonality blocks, and backcast residual loops.
+- 📓 **[04_state_space_models_s4_foundations.ipynb](19-time-series-ssm-and-mamba/04_state_space_models_s4_foundations.ipynb)**: Structured State Space Models (S4), continuous-time ODE discretization, and HiPPO memory initialization.
+- 📓 **[05_mamba_selective_state_spaces_scratch.ipynb](19-time-series-ssm-and-mamba/05_mamba_selective_state_spaces_scratch.ipynb)**: Mamba Selective State Spaces, input-dependent parameters ($B_t, C_t, \Delta_t$), and linear-time inference.
+- 📓 **[06_time_series_anomaly_detection_vae_flow.ipynb](19-time-series-ssm-and-mamba/06_time_series_anomaly_detection_vae_flow.ipynb)**: Multivariate time-series reconstruction error, PCA subspace projection, and rolling Z-score anomaly thresholds.
+
+---
+
+### 📍 Week 20: Advanced Computer Vision, 3D Vision & NeRFs
+- 📓 **[01_object_detection_yolo_and_anchor_boxes.ipynb](20-computer-vision-and-nerfs/01_object_detection_yolo_and_anchor_boxes.ipynb)**: YOLO object detection mechanics, Intersection over Union (IoU), and Non-Maximum Suppression (NMS) from scratch.
+- 📓 **[02_semantic_and_instance_segmentation_unet_maskrcnn.ipynb](20-computer-vision-and-nerfs/02_semantic_and_instance_segmentation_unet_maskrcnn.ipynb)**: U-Net architecture, skip connections, and Soft Dice Loss for class-imbalanced image segmentation.
+- 📓 **[03_neural_radiance_fields_nerf_scratch.ipynb](20-computer-vision-and-nerfs/03_neural_radiance_fields_nerf_scratch.ipynb)**: Neural Radiance Fields (NeRF), continuous volumetric rendering equation, and ray marching from scratch.
+- 📓 **[04_3d_gaussian_splatting_foundations.ipynb](20-computer-vision-and-nerfs/04_3d_gaussian_splatting_foundations.ipynb)**: 3D Gaussian Splatting, 3D to 2D covariance projection (EWA Splatting), and real-time rasterization.
+- 📓 **[05_optical_flow_and_motion_estimation.ipynb](20-computer-vision-and-nerfs/05_optical_flow_and_motion_estimation.ipynb)**: Lucas-Kanade optical flow, brightness constancy constraint, and motion vector field estimation.
+- 📓 **[06_depth_estimation_and_stereo_vision.ipynb](20-computer-vision-and-nerfs/06_depth_estimation_and_stereo_vision.ipynb)**: Stereo vision triangulation ($Z = f B / d$), epipolar geometry, and block-matching disparity estimation.
+
+---
+
+### 📍 Week 21: High-Performance ML Inference, Compilers & Serving
+- 📓 **[01_tensorrt_cuda_graphs_and_kernel_fusion.ipynb](21-high-performance-inference-and-compilers/01_tensorrt_cuda_graphs_and_kernel_fusion.ipynb)**: TensorRT operator fusion, CPU launch overhead elimination via CUDA Graphs, and latency profiling.
+- 📓 **[02_vllm_paged_attention_from_scratch.ipynb](21-high-performance-inference-and-compilers/02_vllm_paged_attention_from_scratch.ipynb)**: vLLM PagedAttention, OS-style virtual memory paging for KV-cache, and fragmentation elimination.
+- 📓 **[03_quantization_mechanics_gptq_awq_smoothquant.ipynb](21-high-performance-inference-and-compilers/03_quantization_mechanics_gptq_awq_smoothquant.ipynb)**: Activation-aware Weight Quantization (AWQ), activation channel outliers, and SmoothQuant transformation.
+- 📓 **[04_continuous_batching_and_cellular_inference.ipynb](21-high-performance-inference-and-compilers/04_continuous_batching_and_cellular_inference.ipynb)**: Continuous (iteration-level) batching, dynamic request insertion, and zero idle GPU execution.
+- 📓 **[05_triton_gpu_programming_fundamentals.ipynb](21-high-performance-inference-and-compilers/05_triton_gpu_programming_fundamentals.ipynb)**: OpenAI Triton block-level GPU programming model, SRAM memory tiling, and vector kernel execution.
+- 📓 **[06_model_speculative_decoding_and_medusa.ipynb](21-high-performance-inference-and-compilers/06_model_speculative_decoding_and_medusa.ipynb)**: Medusa multi-head speculative decoding, tree-based attention verification, and multi-token acceleration.
+
+---
+
+### 📍 Week 22: Multimodal Foundation Models & Vision-Language Architectures
+- 📓 **[01_llava_visual_instruction_tuning.ipynb](22-multimodal-foundation-models/01_llava_visual_instruction_tuning.ipynb)**: LLaVA visual instruction tuning, projection projector bridging vision and language, and token alignment.
+- 📓 **[02_cross_attention_in_diffusion_and_multimodal.ipynb](22-multimodal-foundation-models/02_cross_attention_in_diffusion_and_multimodal.ipynb)**: Cross-attention mechanics in text-to-image diffusion, latent conditioning, and prompt guidance.
+- 📓 **[03_audio_transformers_whisper_scratch.ipynb](22-multimodal-foundation-models/03_audio_transformers_whisper_scratch.ipynb)**: Whisper speech transcription architecture, Log-mel spectrogram extraction, and audio transformer encoders.
+- 📓 **[04_speech_language_models_speech_tokens.ipynb](22-multimodal-foundation-models/04_speech_language_models_speech_tokens.ipynb)**: Discrete speech tokens, Residual Vector Quantization (RVQ), and native audio language modeling.
+- 📓 **[05_video_diffusion_and_temporal_attention.ipynb](22-multimodal-foundation-models/05_video_diffusion_and_temporal_attention.ipynb)**: Video diffusion models, factorized spatio-temporal attention, and cross-frame physical consistency.
+- 📓 **[06_multimodal_rag_colpali_pdf_indexing.ipynb](22-multimodal-foundation-models/06_multimodal_rag_colpali_pdf_indexing.ipynb)**: ColPali OCR-free multimodal document retrieval, visual page screenshot embeddings, and late interaction MaxSim.
+
+---
+
+### 📍 Week 23: Next-Gen AI Reasoning, MCTS & Test-Time Compute
+- 📓 **[01_monte_carlo_tree_search_mcts_scratch.ipynb](23-nextgen-reasoning-and-test-time-compute/01_monte_carlo_tree_search_mcts_scratch.ipynb)**: Monte Carlo Tree Search (MCTS), UCB1 exploration vs exploitation, and AlphaGo-style tree rollouts from scratch.
+- 📓 **[02_process_supervision_prm_vs_outcome_supervision.ipynb](23-nextgen-reasoning-and-test-time-compute/02_process_supervision_prm_vs_outcome_supervision.ipynb)**: Process Reward Models (PRMs) scoring intermediate reasoning steps vs Outcome Reward Models (ORMs).
+- 📓 **[03_self_consistency_and_majority_voting.ipynb](23-nextgen-reasoning-and-test-time-compute/03_self_consistency_and_majority_voting.ipynb)**: Self-Consistency with majority voting across diverse sampled chains of thought and entropy confidence.
+- 📓 **[04_test_time_compute_scaling_laws.ipynb](23-nextgen-reasoning-and-test-time-compute/04_test_time_compute_scaling_laws.ipynb)**: Test-Time Compute scaling laws, internal thinking tokens, and Pareto trade-off frontiers (OpenAI o1 / DeepSeek-R1).
+- 📓 **[05_self_correction_and_backtracking_agents.ipynb](23-nextgen-reasoning-and-test-time-compute/05_self_correction_and_backtracking_agents.ipynb)**: Automated reasoning reflection, state backtracking, and hypothesis pruning from scratch.
+- 📓 **[06_synthetic_reasoning_data_generation_rejection_sampling.ipynb](23-nextgen-reasoning-and-test-time-compute/06_synthetic_reasoning_data_generation_rejection_sampling.ipynb)**: Synthetic reasoning data generation, deterministic verifier rejection sampling, and golden SFT curation.
+
+---
+
 ## 🎯 Daily Cadence & Code Quality
 - **Pure Jupyter Notebook Format (`.ipynb`)**: Directly viewable in your browser on GitHub.
 - **Deep Explanations**: Theory, math derivations, line-by-line commentary, and interview Q&As.
