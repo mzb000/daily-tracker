@@ -14,6 +14,8 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 - 📓 **[05_random_sampling_distributions.ipynb](01-python-data-science/05_random_sampling_distributions.ipynb)**: Seed reproducibility, Gaussian distributions, and train/test shuffling.
 - 📓 **[06_einsum_and_tensor_contractions.ipynb](01-python-data-science/06_einsum_and_tensor_contractions.ipynb)**: Einstein summation convention, tensor contractions, and batched multi-head attention scores.
 - 📓 **[07_memory_strides_and_c_vs_fortran_layout.ipynb](01-python-data-science/07_memory_strides_and_c_vs_fortran_layout.ipynb)**: Array memory strides, C-order vs Fortran layout, zero-copy views, and cache line locality.
+- 📓 **[08_numpy_memory_mapping_and_memmap.ipynb](01-python-data-science/08_numpy_memory_mapping_and_memmap.ipynb)**: Out-of-core processing with `np.memmap`, OS virtual memory page faults, and chunked binary I/O.
+- 📓 **[09_numpy_c_api_and_cython_acceleration.ipynb](01-python-data-science/09_numpy_c_api_and_cython_acceleration.ipynb)**: Typed memoryviews, C-stride pointers, Amdahl's law speedup, and GIL release acceleration.
 
 ---
 
@@ -25,6 +27,8 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 - 📓 **[05_merging_and_joining_datasets.ipynb](02-pandas-data-wrangling/05_merging_and_joining_datasets.ipynb)**: Relational joins (Inner, Left, Outer) for multi-table features.
 - 📓 **[06_advanced_datetime_and_window_functions.ipynb](02-pandas-data-wrangling/06_advanced_datetime_and_window_functions.ipynb)**: Rolling windows, Exponentially Weighted Moving Averages (EWMA), and lag feature engineering.
 - 📓 **[07_memory_optimization_categorical_and_downcasting.ipynb](02-pandas-data-wrangling/07_memory_optimization_categorical_and_downcasting.ipynb)**: Integer/float downcasting, Categorical dictionary encoding, and chunked CSV streaming.
+- 📓 **[08_pandas_to_arrow_and_polars_interop.ipynb](02-pandas-data-wrangling/08_pandas_to_arrow_and_polars_interop.ipynb)**: Apache Arrow zero-copy memory layout, PyArrow string dtypes, and Polars lazy query plan optimization.
+- 📓 **[09_custom_rolling_apply_and_numba.ipynb](02-pandas-data-wrangling/09_custom_rolling_apply_and_numba.ipynb)**: High-performance rolling window analytics, Welford's algorithm for rolling variance, and Numba JIT acceleration.
 
 ---
 
@@ -36,6 +40,8 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 - 📓 **[05_eda_capstone_churn_case_study.ipynb](03-exploratory-data-analysis/05_eda_capstone_churn_case_study.ipynb)**: End-to-end Telecom Churn EDA workflow and feature engineering.
 - 📓 **[06_target_encoding_and_leakage_prevention.ipynb](03-exploratory-data-analysis/06_target_encoding_and_leakage_prevention.ipynb)**: Out-of-fold target encoding, M-estimate empirical Bayes smoothing, and leakage prevention.
 - 📓 **[07_automated_data_profiling_and_drift_inspection.ipynb](03-exploratory-data-analysis/07_automated_data_profiling_and_drift_inspection.ipynb)**: Programmatic statistical health audit, zero-variance alerts, and kurtosis thresholds.
+- 📓 **[08_copula_and_multivariate_dependence.ipynb](03-exploratory-data-analysis/08_copula_and_multivariate_dependence.ipynb)**: Copulas for non-linear feature correlation, Sklar's theorem, Clayton lower-tail dependence, and synthetic generation.
+- 📓 **[09_umap_uniform_manifold_approximation.ipynb](03-exploratory-data-analysis/09_umap_uniform_manifold_approximation.ipynb)**: Uniform Manifold Approximation and Projection (UMAP), fuzzy simplicial sets, and local metric learning.
 
 ---
 
@@ -47,6 +53,8 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 - 📓 **[05_classification_metrics_and_confusion_matrix.ipynb](04-supervised-learning/05_classification_metrics_and_confusion_matrix.ipynb)**: Confusion Matrix, Precision, Recall, and F1-Score.
 - 📓 **[06_elastic_net_regularization_from_scratch.ipynb](04-supervised-learning/06_elastic_net_regularization_from_scratch.ipynb)**: Combining L1 and L2 penalties with Coordinate Descent soft-thresholding from scratch.
 - 📓 **[07_cost_sensitive_classification_and_bayes_decision_theory.ipynb](04-supervised-learning/07_cost_sensitive_classification_and_bayes_decision_theory.ipynb)**: Asymmetric cost matrices, Bayes decision theory, and financially optimal probability thresholds.
+- 📓 **[08_quantile_regression_scratch.ipynb](04-supervised-learning/08_quantile_regression_scratch.ipynb)**: Pinball loss function, conditional quantiles, subgradient descent, and heteroscedastic prediction intervals.
+- 📓 **[09_ordinal_logistic_regression.ipynb](04-supervised-learning/09_ordinal_logistic_regression.ipynb)**: Ordinal Logistic Regression, proportional odds model, cumulative logits, and monotonic cutpoint optimization.
 
 ---
 
@@ -58,6 +66,8 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 - 📓 **[05_hyperparameter_tuning_grid_vs_random.ipynb](05-ensemble-algorithms/05_hyperparameter_tuning_grid_vs_random.ipynb)**: GridSearchCV vs RandomizedSearchCV vs Bayesian Optimization.
 - 📓 **[06_catboost_ordered_boosting_and_target_statistics.ipynb](05-ensemble-algorithms/06_catboost_ordered_boosting_and_target_statistics.ipynb)**: Ordered boosting principle, oblivious symmetric trees, and prediction shift elimination.
 - 📓 **[07_stacking_and_blending_ensembles_from_scratch.ipynb](05-ensemble-algorithms/07_stacking_and_blending_ensembles_from_scratch.ipynb)**: Multi-model stacking meta-learners and out-of-fold cross-validation blending from scratch.
+- 📓 **[08_lightgbm_goss_and_efb_scratch.ipynb](05-ensemble-algorithms/08_lightgbm_goss_and_efb_scratch.ipynb)**: LightGBM Gradient-based One-Side Sampling (GOSS), histogram binning, and variance gain estimation from scratch.
+- 📓 **[09_isolation_forest_path_derivation.ipynb](05-ensemble-algorithms/09_isolation_forest_path_derivation.ipynb)**: Isolation Forest BST average path length $c(n)$ derivation, random hyperplane cuts, and anomaly score thresholding.
 
 ---
 
@@ -69,6 +79,8 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 - 📓 **[05_tsne_and_high_dimensional_visualization.ipynb](06-unsupervised-learning/05_tsne_and_high_dimensional_visualization.ipynb)**: Non-linear manifold embedding, Student-t distribution, and perplexity tuning.
 - 📓 **[06_dbscan_density_based_clustering_from_scratch.ipynb](06-unsupervised-learning/06_dbscan_density_based_clustering_from_scratch.ipynb)**: Density-based clustering, $\epsilon$ neighborhoods, core/border/noise points from scratch.
 - 📓 **[07_gaussian_mixture_models_em_algorithm_scratch.ipynb](06-unsupervised-learning/07_gaussian_mixture_models_em_algorithm_scratch.ipynb)**: Soft probabilistic clustering and the Expectation-Maximization (EM) algorithm from scratch.
+- 📓 **[08_hdbscan_hierarchical_density_clustering.ipynb](06-unsupervised-learning/08_hdbscan_hierarchical_density_clustering.ipynb)**: HDBSCAN mutual reachability distance, core distances, condensed cluster trees, and persistence stability selection.
+- 📓 **[09_spectral_clustering_normalized_cuts.ipynb](06-unsupervised-learning/09_spectral_clustering_normalized_cuts.ipynb)**: Normalized Graph Laplacian cuts, RBF affinity matrices, Fiedler eigenvector projections, and manifold clustering.
 
 ---
 
@@ -82,6 +94,8 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 - 📓 **[07_regularization_dropout_batchnorm_weight_decay.ipynb](07-deep-learning-foundations/07_regularization_dropout_batchnorm_weight_decay.ipynb)**: Inverted dropout from scratch, batch normalization, and weight decay.
 - 📓 **[08_convolutional_neural_networks_cnn_basics.ipynb](07-deep-learning-foundations/08_convolutional_neural_networks_cnn_basics.ipynb)**: 2D convolution from scratch, Sobel edge filter kernels, stride, padding, and pooling.
 - 📓 **[09_recurrent_neural_networks_and_lstm_from_scratch.ipynb](07-deep-learning-foundations/09_recurrent_neural_networks_and_lstm_from_scratch.ipynb)**: Long Short-Term Memory cell gating equations ($f, i, \tilde{C}, o$) and constant error carousel from scratch.
+- 📓 **[10_gru_gated_recurrent_unit_scratch.ipynb](07-deep-learning-foundations/10_gru_gated_recurrent_unit_scratch.ipynb)**: Gated Recurrent Unit (GRU) forward pass, reset and update gates, and BPTT math from scratch.
+- 📓 **[11_weight_initialization_xavier_he.ipynb](07-deep-learning-foundations/11_weight_initialization_xavier_he.ipynb)**: Variance preservation math across deep layers, Xavier Glorot vs He Kaiming initialization derivation.
 
 ---
 
@@ -92,6 +106,8 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 - 📓 **[04_sentiment_analysis_naive_bayes_nlp.ipynb](08-nlp-and-text-embeddings/04_sentiment_analysis_naive_bayes_nlp.ipynb)**: Bayes theorem, Laplace smoothing, and multinomial spam classification.
 - 📓 **[05_recurrent_neural_networks_rnn_and_lstm.ipynb](08-nlp-and-text-embeddings/05_recurrent_neural_networks_rnn_and_lstm.ipynb)**: Sequence memory, hidden state propagation, and LSTM gating mechanics.
 - 📓 **[06_subword_tokenization_sentencepiece_and_unigram.ipynb](08-nlp-and-text-embeddings/06_subword_tokenization_sentencepiece_and_unigram.ipynb)**: SentencePiece Unigram tokenization model, Viterbi segmentation, and vocabulary pruning.
+- 📓 **[07_fasttext_subword_embeddings.ipynb](08-nlp-and-text-embeddings/07_fasttext_subword_embeddings.ipynb)**: FastText subword character n-gram hashing, FNV-1a hash buckets, and Out-of-Vocabulary (OOV) generalization.
+- 📓 **[08_bert_masked_language_model_scratch.ipynb](08-nlp-and-text-embeddings/08_bert_masked_language_model_scratch.ipynb)**: BERT Masked Language Modeling (MLM) 80/10/10 masking rule, Cloze cross-entropy loss, and bidirectional pretraining.
 
 ---
 
@@ -102,6 +118,8 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 - 📓 **[04_tokenization_bpe_byte_pair_encoding.ipynb](09-transformers-and-llms/04_tokenization_bpe_byte_pair_encoding.ipynb)**: Subword tokenization and Byte-Pair Encoding (BPE) algorithm from scratch.
 - 📓 **[05_prompt_engineering_and_rag_foundations.ipynb](09-transformers-and-llms/05_prompt_engineering_and_rag_foundations.ipynb)**: Chain-of-Thought prompting, vector database retrieval, and RAG architecture.
 - 📓 **[06_rotary_positional_embeddings_rope_math.ipynb](09-transformers-and-llms/06_rotary_positional_embeddings_rope_math.ipynb)**: Rotary Positional Embeddings (RoPE), complex rotation matrices, and relative distance invariance.
+- 📓 **[07_flash_decoding_and_multi_query_attention.ipynb](09-transformers-and-llms/07_flash_decoding_and_multi_query_attention.ipynb)**: Multi-Query Attention (MQA), KV cache memory bandwidth bottlenecks, and FlashDecoding parallel sequence reductions.
+- 📓 **[08_grouped_query_attention_gqa.ipynb](09-transformers-and-llms/08_grouped_query_attention_gqa.ipynb)**: Grouped-Query Attention (GQA), head projection broadcasting, and LLaMA 2/3 inference optimizations.
 
 ---
 
@@ -112,6 +130,8 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 - 📓 **[04_data_drift_and_concept_drift_detection.ipynb](10-mlops-and-explainable-ai/04_data_drift_and_concept_drift_detection.ipynb)**: Covariate shift, Kolmogorov-Smirnov test, and Population Stability Index (PSI).
 - 📓 **[05_model_serialization_onnx_and_fastapi_serving.ipynb](10-mlops-and-explainable-ai/05_model_serialization_onnx_and_fastapi_serving.ipynb)**: ONNX runtime export and low-latency FastAPI REST microservice schemas.
 - 📓 **[06_model_calibration_platt_scaling_isotonic.ipynb](10-mlops-and-explainable-ai/06_model_calibration_platt_scaling_isotonic.ipynb)**: Expected Calibration Error (ECE), Reliability Diagrams, and Platt Scaling from scratch.
+- 📓 **[07_ab_testing_bayesian_vs_frequentist.ipynb](10-mlops-and-explainable-ai/07_ab_testing_bayesian_vs_frequentist.ipynb)**: Frequentist two-proportion z-tests vs Bayesian Beta-Binomial conjugate updating, and the peeking problem.
+- 📓 **[08_evidently_drift_monitoring.ipynb](10-mlops-and-explainable-ai/08_evidently_drift_monitoring.ipynb)**: Production data drift monitoring, Population Stability Index (PSI), and Wasserstein-1 Earth Mover's Distance.
 
 ---
 
@@ -122,6 +142,8 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 - 📓 **[04_recommender_systems_collaborative_filtering.ipynb](11-advanced-specialized-ml/04_recommender_systems_collaborative_filtering.ipynb)**: User-Item interaction matrix, Collaborative Filtering, and Cosine similarity.
 - 📓 **[05_time_series_forecasting_arima_and_seasonality.ipynb](11-advanced-specialized-ml/05_time_series_forecasting_arima_and_seasonality.ipynb)**: Stationarity testing, differencing, and ARIMA $(p, d, q)$ parameters.
 - 📓 **[06_causal_inference_propensity_score_matching.ipynb](11-advanced-specialized-ml/06_causal_inference_propensity_score_matching.ipynb)**: Rubin Potential Outcomes model, confounder isolation, and Propensity Score Matching (PSM).
+- 📓 **[07_synthetic_data_ctgan_copulas.ipynb](11-advanced-specialized-ml/07_synthetic_data_ctgan_copulas.ipynb)**: CTGAN tabular data synthesis, Mode-Specific Normalization with Variational Gaussian Mixtures, and conditional WGANs.
+- 📓 **[08_two_tower_recommender_embeddings.ipynb](11-advanced-specialized-ml/08_two_tower_recommender_embeddings.ipynb)**: Two-Tower user/item neural retrieval, in-batch negative contrastive loss, and sub-millisecond MIPS ANN candidate generation.
 
 ---
 
@@ -132,6 +154,8 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 - 📓 **[04_vision_transformers_vit_patch_projection.ipynb](12-generative-ai-and-diffusion/04_vision_transformers_vit_patch_projection.ipynb)**: Image patch flattening, linear projection, [CLS] token classification, and self-attention in CV.
 - 📓 **[05_clip_and_multimodal_contrastive_learning.ipynb](12-generative-ai-and-diffusion/05_clip_and_multimodal_contrastive_learning.ipynb)**: OpenAI CLIP dual-encoders, cross-modal cosine similarity, and zero-shot image classification.
 - 📓 **[06_classifier_free_guidance_cfg_diffusion.ipynb](12-generative-ai-and-diffusion/06_classifier_free_guidance_cfg_diffusion.ipynb)**: Classifier-Free Guidance (CFG) equation, conditioning dropout, and prompt alignment extrapolation.
+- 📓 **[07_latent_consistency_models_lcm.ipynb](12-generative-ai-and-diffusion/07_latent_consistency_models_lcm.ipynb)**: Latent Consistency Models (LCM), PF-ODE trajectory distillation, and 1-to-4 step fast diffusion generation.
+- 📓 **[08_flow_matching_rectified_flows.ipynb](12-generative-ai-and-diffusion/08_flow_matching_rectified_flows.ipynb)**: Continuous Normalizing Flows, Rectified Flow Matching with straight vector fields, and fast ODE Euler integration.
 
 ---
 
@@ -142,6 +166,8 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 - 📓 **[04_policy_gradients_reinforce_and_actor_critic.ipynb](13-reinforcement-learning-and-rlhf/04_policy_gradients_reinforce_and_actor_critic.ipynb)**: REINFORCE policy gradient theorem, log-derivative trick, and Advantage Actor-Critic (A2C).
 - 📓 **[05_rlhf_reinforcement_learning_human_feedback.ipynb](13-reinforcement-learning-and-rlhf/05_rlhf_reinforcement_learning_human_feedback.ipynb)**: 3-step RLHF pipeline: SFT, Bradley-Terry reward modeling, and PPO alignment with KL penalties.
 - 📓 **[06_proximal_policy_optimization_ppo_clipped_objective.ipynb](13-reinforcement-learning-and-rlhf/06_proximal_policy_optimization_ppo_clipped_objective.ipynb)**: PPO-Clip mathematical surrogate objective, probability ratio clamping, and trust region stability.
+- 📓 **[07_direct_preference_optimization_vs_kto.ipynb](13-reinforcement-learning-and-rlhf/07_direct_preference_optimization_vs_kto.ipynb)**: Kahneman-Tversky Optimization (KTO), human loss aversion modeling, and alignment with unpaired binary feedback.
+- 📓 **[08_multi_agent_reinforcement_learning_marl.ipynb](13-reinforcement-learning-and-rlhf/08_multi_agent_reinforcement_learning_marl.ipynb)**: Centralized Training Decentralized Execution (CTDE), QMIX monotonic value factorization, and hypernetwork mixing.
 
 ---
 
@@ -152,6 +178,8 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 - 📓 **[04_speculative_decoding_and_kv_cache.ipynb](14-llm-finetuning-and-peft/04_speculative_decoding_and_kv_cache.ipynb)**: KV-Cache memory mechanics, memory bandwidth bottlenecks, and Speculative Decoding draft verification.
 - 📓 **[05_ai_agents_function_calling_and_tool_use.ipynb](14-llm-finetuning-and-peft/05_ai_agents_function_calling_and_tool_use.ipynb)**: ReAct (Reason + Act) loop, JSON tool schemas, multi-step tool execution, and error handling.
 - 📓 **[06_unsloth_and_flash_attention_mechanics.ipynb](14-llm-finetuning-and-peft/06_unsloth_and_flash_attention_mechanics.ipynb)**: FlashAttention IO-awareness, GPU SRAM memory tiling, and online streaming softmax from scratch.
+- 📓 **[07_bitnet_1bit_llm_quantization.ipynb](14-llm-finetuning-and-peft/07_bitnet_1bit_llm_quantization.ipynb)**: BitNet b1.58 ternary weight quantization $\{-1, 0, 1\}$, BitLinear layer, and multiplication-free matrix multiplication.
+- 📓 **[08_prefix_tuning_and_prompt_tuning.ipynb](14-llm-finetuning-and-peft/08_prefix_tuning_and_prompt_tuning.ipynb)**: Prefix Tuning vs Prompt Tuning, virtual Key/Value attention prefixes, and MLP parameterization.
 
 ---
 
@@ -162,6 +190,8 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 - 📓 **[04_graphsage_neighborhood_sampling.ipynb](15-graph-neural-networks-and-geometric-dl/04_graphsage_neighborhood_sampling.ipynb)**: Inductive representation learning and fixed-size neighborhood mini-batch sampling.
 - 📓 **[05_link_prediction_and_molecular_graphs.ipynb](15-graph-neural-networks-and-geometric-dl/05_link_prediction_and_molecular_graphs.ipynb)**: TransE knowledge graph embeddings, negative edge sampling, and molecular property ranking.
 - 📓 **[06_graph_pooling_diffpool_and_graph_classification.ipynb](15-graph-neural-networks-and-geometric-dl/06_graph_pooling_diffpool_and_graph_classification.ipynb)**: Differentiable Graph Pooling (DiffPool), soft cluster assignment matrices, and whole-graph classification.
+- 📓 **[07_heterogeneous_graph_neural_networks.ipynb](15-graph-neural-networks-and-geometric-dl/07_heterogeneous_graph_neural_networks.ipynb)**: Relational Graph Convolutional Networks (RGCN), basis decomposition, and heterogeneous metapath message passing.
+- 📓 **[08_temporal_graph_networks_tgn.ipynb](15-graph-neural-networks-and-geometric-dl/08_temporal_graph_networks_tgn.ipynb)**: Temporal Graph Networks (TGN) for continuous-time dynamic graphs, node memory banks, and Bochner Fourier time encoding.
 
 ---
 
@@ -172,6 +202,8 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 - 📓 **[04_model_pruning_and_knowledge_distillation.ipynb](16-distributed-training-and-model-optimization/04_model_pruning_and_knowledge_distillation.ipynb)**: Hinton knowledge distillation loss with temperature and weight magnitude pruning.
 - 📓 **[05_feature_stores_feast_and_realtime_inference.ipynb](16-distributed-training-and-model-optimization/05_feature_stores_feast_and_realtime_inference.ipynb)**: Point-in-time correctness as-of joins and dual-store architecture preventing data leakage.
 - 📓 **[06_activation_checkpointing_and_cpu_offload.ipynb](16-distributed-training-and-model-optimization/06_activation_checkpointing_and_cpu_offload.ipynb)**: Activation Checkpointing, gradient recomputation, and $O(\sqrt{L})$ memory scaling.
+- 📓 **[07_pipeline_parallel_interleaved_1f1b.ipynb](16-distributed-training-and-model-optimization/07_pipeline_parallel_interleaved_1f1b.ipynb)**: Pipeline Parallelism 1F1B schedule, peak activation memory reduction, and interleaved virtual stages.
+- 📓 **[08_fsdp_hybrid_sharding_strategies.ipynb](16-distributed-training-and-model-optimization/08_fsdp_hybrid_sharding_strategies.ipynb)**: Fully Sharded Data Parallel (FSDP), Hybrid Sharding (HSDP), All-Gather and Reduce-Scatter collective memory dynamics.
 
 ---
 
@@ -182,6 +214,8 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 - 📓 **[04_chunking_strategies_and_contextual_retrieval.ipynb](17-advanced-rag-and-vector-search/04_chunking_strategies_and_contextual_retrieval.ipynb)**: Semantic boundary splitting and hierarchical parent-child indexing.
 - 📓 **[05_rag_triad_evaluation_ragas_and_truelens.ipynb](17-advanced-rag-and-vector-search/05_rag_triad_evaluation_ragas_and_truelens.ipynb)**: Automated context relevance, faithfulness, and answer groundedness scoring.
 - 📓 **[06_graph_rag_knowledge_graphs_with_llm.ipynb](17-advanced-rag-and-vector-search/06_graph_rag_knowledge_graphs_with_llm.ipynb)**: GraphRAG entity-relationship extraction, Leiden community clustering, and hierarchical global summaries.
+- 📓 **[07_raptor_recursive_abstractive_processing.ipynb](17-advanced-rag-and-vector-search/07_raptor_recursive_abstractive_processing.ipynb)**: RAPTOR recursive abstractive summarization trees, hierarchical clustering, and multi-level thematic retrieval.
+- 📓 **[08_self_rag_adaptive_retrieval.ipynb](17-advanced-rag-and-vector-search/08_self_rag_adaptive_retrieval.ipynb)**: Self-RAG adaptive retrieval gating (`[Retrieve]`), groundedness verification (`[IsSup]`), and reflection tokens.
 
 ---
 
@@ -193,6 +227,8 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 - 📓 **[05_structured_outputs_json_grammar_constrained_sampling.ipynb](18-autonomous-ai-agents-and-multi-agent-systems/05_structured_outputs_json_grammar_constrained_sampling.ipynb)**: Grammar-constrained decoding, pushdown automata, and logit masking for 100% valid JSON.
 - 📓 **[06_ai_safety_guardrails_prompt_injection_defense.ipynb](18-autonomous-ai-agents-and-multi-agent-systems/06_ai_safety_guardrails_prompt_injection_defense.ipynb)**: Defenses against direct and indirect prompt injection, canary token verification, and input-output boundaries.
 - 📓 **[07_agent_benchmarking_and_swe_bench_evaluation.ipynb](18-autonomous-ai-agents-and-multi-agent-systems/07_agent_benchmarking_and_swe_bench_evaluation.ipynb)**: Autonomous software agent evaluation (SWE-bench), unified git diff patches, and sandbox regression testing.
+- 📓 **[08_langgraph_cyclic_agent_state_machines.ipynb](18-autonomous-ai-agents-and-multi-agent-systems/08_langgraph_cyclic_agent_state_machines.ipynb)**: Cyclic agent state machines, state reducer functions, conditional edge routing, and human-in-the-loop checkpoints.
+- 📓 **[09_reflexion_reinforcement_learning_verbal.ipynb](18-autonomous-ai-agents-and-multi-agent-systems/09_reflexion_reinforcement_learning_verbal.ipynb)**: Reflexion verbal reinforcement learning, evaluator failure diagnosis, and episodic self-reflection memory loops.
 
 ---
 
@@ -203,6 +239,8 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 - 📓 **[04_state_space_models_s4_foundations.ipynb](19-time-series-ssm-and-mamba/04_state_space_models_s4_foundations.ipynb)**: Structured State Space Models (S4), continuous-time ODE discretization, and HiPPO memory initialization.
 - 📓 **[05_mamba_selective_state_spaces_scratch.ipynb](19-time-series-ssm-and-mamba/05_mamba_selective_state_spaces_scratch.ipynb)**: Mamba Selective State Spaces, input-dependent parameters ($B_t, C_t, \Delta_t$), and linear-time inference.
 - 📓 **[06_time_series_anomaly_detection_vae_flow.ipynb](19-time-series-ssm-and-mamba/06_time_series_anomaly_detection_vae_flow.ipynb)**: Multivariate time-series reconstruction error, PCA subspace projection, and rolling Z-score anomaly thresholds.
+- 📓 **[07_patchtst_patching_channel_independence.ipynb](19-time-series-ssm-and-mamba/07_patchtst_patching_channel_independence.ipynb)**: PatchTST subseries patching, channel-independent Transformer backbones, and $O(S^2)$ attention memory reduction.
+- 📓 **[08_crossformer_cross_dimension_attention.ipynb](19-time-series-ssm-and-mamba/08_crossformer_cross_dimension_attention.ipynb)**: Crossformer Two-Stage Attention (TSA) alternating Cross-Time and Cross-Dimension self-attention passes.
 
 ---
 
@@ -213,6 +251,8 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 - 📓 **[04_3d_gaussian_splatting_foundations.ipynb](20-computer-vision-and-nerfs/04_3d_gaussian_splatting_foundations.ipynb)**: 3D Gaussian Splatting, 3D to 2D covariance projection (EWA Splatting), and real-time rasterization.
 - 📓 **[05_optical_flow_and_motion_estimation.ipynb](20-computer-vision-and-nerfs/05_optical_flow_and_motion_estimation.ipynb)**: Lucas-Kanade optical flow, brightness constancy constraint, and motion vector field estimation.
 - 📓 **[06_depth_estimation_and_stereo_vision.ipynb](20-computer-vision-and-nerfs/06_depth_estimation_and_stereo_vision.ipynb)**: Stereo vision triangulation ($Z = f B / d$), epipolar geometry, and block-matching disparity estimation.
+- 📓 **[07_segment_anything_sam_prompt_encoder.ipynb](20-computer-vision-and-nerfs/07_segment_anything_sam_prompt_encoder.ipynb)**: Segment Anything (SAM) architecture, Fourier coordinate prompt encoders, and two-way cross-attention mask decoders.
+- 📓 **[08_depth_anything_monocular_depth.ipynb](20-computer-vision-and-nerfs/08_depth_anything_monocular_depth.ipynb)**: Depth Anything foundation models, Scale-and-Shift Invariant (SSI) depth loss, and large-scale unlabeled distillation.
 
 ---
 
@@ -223,6 +263,8 @@ Welcome to the **Machine Learning & Data Science Daily Lab**! This repository is
 - 📓 **[04_continuous_batching_and_cellular_inference.ipynb](21-high-performance-inference-and-compilers/04_continuous_batching_and_cellular_inference.ipynb)**: Continuous (iteration-level) batching, dynamic request insertion, and zero idle GPU execution.
 - 📓 **[05_triton_gpu_programming_fundamentals.ipynb](21-high-performance-inference-and-compilers/05_triton_gpu_programming_fundamentals.ipynb)**: OpenAI Triton block-level GPU programming model, SRAM memory tiling, and vector kernel execution.
 - 📓 **[06_model_speculative_decoding_and_medusa.ipynb](21-high-performance-inference-and-compilers/06_model_speculative_decoding_and_medusa.ipynb)**: Medusa multi-head speculative decoding, tree-based attention verification, and multi-token acceleration.
+- 📓 **[07_vllm_chunked_prefill_scheduling.ipynb](21-high-performance-inference-and-compilers/07_vllm_chunked_prefill_scheduling.ipynb)**: vLLM Chunked Prefill, mixed prefill/decode batching, and eliminating inter-token latency spikes.
+- 📓 **[08_cuda_shared_memory_tiling_matmul.ipynb](21-high-performance-inference-and-compilers/08_cuda_shared_memory_tiling_matmul.ipynb)**: CUDA shared memory 2D block tiling, barrier synchronization, DRAM access reduction, and arithmetic intensity scaling.
 
 ---
 
